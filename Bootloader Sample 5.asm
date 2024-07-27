@@ -6,7 +6,6 @@ start:
     mov ds, ax
     mov es, ax
 
-    ; Limpa a tela
     mov ah, 0x06
     xor al, al
     xor cx, cx
@@ -14,7 +13,6 @@ start:
     mov bh, 0x1E
     int 0x10
 
-    ; Exibe o menu
     mov si, menu_options
 print_menu:
     lodsb
@@ -26,7 +24,7 @@ print_menu:
 
 wait_for_input:
     xor ah, ah
-    int 0x16    ; Espera uma entrada do teclado
+    int 0x16   
     cmp al, '1'
     je install_binary
     cmp al, '2'
@@ -60,7 +58,6 @@ return:
 menu_options db 'Press 1 to Install Binary, 2 to Display Message', 0
 success_msg db 'Operation Completed Successfully!', 0
 
-; Arte ASCII Simplificada de Rick Roll
 ascii_art:
     db 'Rick Astley', 0
     db 'Never gonna give you up', 0
