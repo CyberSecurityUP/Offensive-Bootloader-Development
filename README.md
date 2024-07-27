@@ -32,6 +32,12 @@ Breaking the chain of trust by showing how a compromised bootloader can lead to 
 
 These applications can be integrated into Red Team simulations to provide a comprehensive view of an organization’s defensive capabilities, highlighting areas where improvements are needed and helping to develop more robust defenses against sophisticated attacks.
 
+## Compile
+
+nasm -f bin bootloader.asm -o bootloader.bin
+
+qemu-system-x86_64.exe "C:\Temp\Bootloaders Hello World\bootloader5.bin"
+
 ## References
 
 https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/writing-a-custom-bootloader
