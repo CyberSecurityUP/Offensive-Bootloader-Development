@@ -34,9 +34,13 @@ These applications can be integrated into Red Team simulations to provide a comp
 
 ## References
 
-
 https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/writing-a-custom-bootloader
 
 https://www.attackify.com/blog/loldrivers_bootloaders/
 
 https://www.bootloaders.io/
+
+https://github.com/LuigiVampa92/unlocked-bootloader-backdoor-demo
+
+https://cooltechzone.com/news/windows-uefi-bootkit-might-be-infected-by-finspy-malware
+https://github.com/LuigiVampa92/unlocked-bootloader-backdoor-demo
