@@ -31,3 +31,12 @@ Testing how a system responds to corruption or alteration of the bootloader can 
 Breaking the chain of trust by showing how a compromised bootloader can lead to a fully compromised system underscores the importance of security measures from the first stage of boot.
 
 These applications can be integrated into Red Team simulations to provide a comprehensive view of an organization’s defensive capabilities, highlighting areas where improvements are needed and helping to develop more robust defenses against sophisticated attacks.
+
+## References
+
+
+https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/writing-a-custom-bootloader
+
+https://www.attackify.com/blog/loldrivers_bootloaders/
+
+https://www.bootloaders.io/
